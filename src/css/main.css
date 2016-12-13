@@ -89,7 +89,7 @@ textarea {
    ========================================================================== */
 
 #wrapper {
-background-color: black;
+background-color: #485874;
 width: 960px;
 margin-left: auto;
 margin-right: auto;
@@ -101,12 +101,18 @@ line-height: 20px;
 }
 
 #menu {
-height: 70px;
+height: 86px;
 line-height: 20px;
 width: 362px;
 float: left;
-margin-right: 5px;
 text-align: right;
+}
+
+#menu ul{
+padding-top: 31px;
+padding-left: 0px;
+padding-right: 31px;
+margin: 0px;
 }
 
 li {
@@ -114,9 +120,11 @@ display: inline;
 }
 
 #menu a{
-color: #5FF4E5;
+color: #CBACA7;
 text-align: right;
+font-size: 20px;
 font-family: 'Exo 2', sans-serif;
+padding-top: 43px;
 }
 
 #logo {
@@ -126,16 +134,16 @@ margin-top: 0px;
 margin-left: 5px;
 }
 
-#logo h1{
-color: #5FF4E5;
-font-family: 'Exo 2', sans-serif;
+#logo img{
+height: 86px;
+width: 86px;
 }
 
 #banner {
 clear: both;
 margin-left: auto;
 margin-right: auto;
-background-image: url(http://pre03.deviantart.net/4423/th/pre/f/2015/269/8/b/ocean_storm_vr_by_jjcanvas-d9aytvm.jpg);
+background-image: url(https://web.njit.edu/~adm52/final-project/src/img/banner.jpg);
 background-repeat: no-repeat;
 height: 380px;
 background-size: 100% 100%;
@@ -145,66 +153,72 @@ margin-top: inherit;
 }
 
 #banner h1{
-color: #5FF4E5;
+color: black;
 margin: 0px;
 padding: 0px;
 font-family: 'Exo 2', sans-serif;
-text-align: center;
+text-align: left;
+padding-top: 150px;
 }
 
 #feature1 {
 float: left;
 width: 296.5px;
+height: 66px;
 }
 
 #feature2 {
 float: left;
 width: 296.5px;
+height: 66px;
 }
 
 #feature3 {
 float: right;
 width: 367px;
 text-align: center;
+height: 66px;
 }
 
-#feature1 h3 {
+#feature1 h5{
 margin:0px;
 width: 165px;
-background-color: #F48E5F;
+color: #8B9EC1;
 }
 
 #feature1 p{
 color:white;
 }
 
-#feature2 h3 {
+#feature2 h5{
 margin:0px;
 width: 134px;
-background-color: #F48E5F;
+color: #8B9EC1;
 }
 
 #feature2 p {
 color: white;
 }
 
-#feature3 h3{
+#feature3 h5{
 margin:0px;
 width: 187px;
-background-color: #F48E5F;
 font-family: 'Exo 2', sans-serif;
+color: #8B9EC1;
 position: right;
 }
 
 #feature3 a{
-color: #5FF4E5;
+color: #CBACA7;
+font-size: medium;
 }
 
 #footer {
-background-color: #F48E5F;
+background-color: #8B9EC1;
 clear: both;
 text-align: center;
 font-family: 'Exo 2', sans-serif;
+height: 20px;
 }
 
 #fonts
@@ -234,6 +248,7 @@ font-family: 'Roboto Slab', serif;
 
 h5 { 
 font-size: 120%;
+margin: 0px;
 }
 
 h6 {
@@ -243,6 +258,7 @@ font-size: 100%;
 p,h6 {
 font-family: 'Roboto Slab', serif;
 font-size: 12px;
+margin: 0px;
 }
 
 
