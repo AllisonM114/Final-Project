@@ -153,7 +153,7 @@ margin-top: inherit;
 }
 
 #banner h1{
-color: black;
+color: white;
 margin: 0px;
 padding: 0px;
 font-family: 'Exo 2', sans-serif;
@@ -219,6 +219,51 @@ clear: both;
 text-align: center;
 font-family: 'Exo 2', sans-serif;
 height: 20px;
+color: white;
+}
+
+#contactpageform {
+text-align: center;
+}
+
+#contactpage h1{
+font-family: 'Exo 2', sans-serif;
+font-size: 20px;
+text-align: center;
+}
+
+#bannerAbout {
+background-image: url(https://web.njit.edu/~adm52/final-project/src/img/vr.jpg);
+width: 367px;
+height: 593px;
+background-size: 100% 100%;
+float: left;
+}
+
+#featureAbout {
+float: left;
+width: 545px;
+padding-left: 24px;
+padding-right: 24px;
+}
+
+#bannerAbout h1 {
+font-family: 'Exo 2', sans-serif;
+font-size: 20px;
+color: #8B9EC1;
+text-align: center;
+}
+
+#featureAbout h1 {
+font-family: 'Exo 2', sans-serif;
+font-size: 28px;
+color: #8B9EC1;
+}
+
+#featureAbout p{
+font-family: 'Roboto Slab', serif;
+font-size: 19px;
+line-height: 28px;
 }
 
 #fonts
