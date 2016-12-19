@@ -89,15 +89,15 @@ textarea {
    ========================================================================== */
 
 #wrapper {
-background-color: #485874;
 width: 960px;
 margin-left: auto;
 margin-right: auto;
 }
 
 #header {
-height: 70px;
+height: 86px;
 line-height: 20px;
+background-color: #243A59;
 }
 
 #menu {
@@ -120,7 +120,7 @@ display: inline;
 }
 
 #menu a{
-color: #CBACA7;
+color: #B3756C;
 text-align: right;
 font-size: 20px;
 font-family: 'Exo 2', sans-serif;
@@ -128,15 +128,18 @@ padding-top: 43px;
 }
 
 #logo {
-width: 588px;
+width: 593px;
 float: left;
-margin-top: 0px;
-margin-left: 5px;
 }
 
 #logo img{
-height: 86px;
-width: 86px;
+height: 70px;
+width: 70px;
+float: left;
+padding-top: 8px;
+padding-left: 8px;
+padding-bottom: 8px;
+padding-right: 8px;
 }
 
 #banner {
@@ -155,27 +158,30 @@ margin-top: inherit;
 #banner h1{
 color: white;
 margin: 0px;
-padding: 0px;
+padding-left: 5px;
 font-family: 'Exo 2', sans-serif;
 text-align: left;
 padding-top: 150px;
 }
 
 #feature1 {
+padding-left: 5px;
 float: left;
-width: 296.5px;
+width: 291.5px;
 height: 66px;
 }
 
 #feature2 {
+padding-left: 5px;
 float: left;
-width: 296.5px;
+width: 291.5px;
 height: 66px;
 }
 
 #feature3 {
+padding-left: 5px;
 float: right;
-width: 367px;
+width: 362px;
 text-align: center;
 height: 66px;
 }
@@ -183,38 +189,38 @@ height: 66px;
 #feature1 h5{
 margin:0px;
 width: 165px;
-color: #8B9EC1;
+color: #243A59;
 }
 
 #feature1 p{
-color:white;
+color:black;
 }
 
 #feature2 h5{
 margin:0px;
 width: 134px;
-color: #8B9EC1;
+color: #243A59;
 }
 
 #feature2 p {
-color: white;
+color: black;
 }
 
 #feature3 h5{
 margin:0px;
 width: 187px;
 font-family: 'Exo 2', sans-serif;
-color: #8B9EC1;
+color: #243A59;
 position: right;
 }
 
 #feature3 a{
-color: #CBACA7;
-font-size: medium;
+color: #D4F26F;
+font-size: x-large;
 }
 
 #footer {
-background-color: #8B9EC1;
+background-color: #5475A6;
 clear: both;
 text-align: center;
 font-family: 'Exo 2', sans-serif;
@@ -250,14 +256,14 @@ padding-right: 24px;
 #bannerAbout h1 {
 font-family: 'Exo 2', sans-serif;
 font-size: 20px;
-color: #8B9EC1;
+color: #243A59;
 text-align: center;
 }
 
 #featureAbout h1 {
 font-family: 'Exo 2', sans-serif;
 font-size: 28px;
-color: #8B9EC1;
+color: #243A59;
 }
 
 #featureAbout p{
