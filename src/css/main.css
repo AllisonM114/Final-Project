@@ -120,7 +120,7 @@ display: inline;
 }
 
 #menu a{
-color: #B3756C;
+color: white;
 text-align: right;
 font-size: 20px;
 font-family: 'Exo 2', sans-serif;
@@ -156,7 +156,7 @@ margin-top: inherit;
 }
 
 #banner h1{
-color: white;
+color: #D4F26F;
 margin: 0px;
 padding-left: 5px;
 font-family: 'Exo 2', sans-serif;
@@ -215,12 +215,12 @@ position: right;
 }
 
 #feature3 a{
-color: #D4F26F;
+color: #B3756C;
 font-size: x-large;
 }
 
 #footer {
-background-color: #5475A6;
+background-color: #203451;
 clear: both;
 text-align: center;
 font-family: 'Exo 2', sans-serif;
@@ -256,7 +256,7 @@ padding-right: 24px;
 #bannerAbout h1 {
 font-family: 'Exo 2', sans-serif;
 font-size: 20px;
-color: #243A59;
+color: #D4F26F;
 text-align: center;
 }
 
